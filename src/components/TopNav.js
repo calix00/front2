@@ -2,7 +2,7 @@
 import React from 'react';
 import { IconButton, InputBase, Badge, Avatar } from '@mui/material';
 import { Menu as MenuIcon, Search as SearchIcon, Notifications as NotificationsIcon, Settings as SettingsIcon } from '@mui/icons-material';
-import './CSS/TopNav.css';
+import './TopNav.css';
 
 const TopNav = () => {
   return (

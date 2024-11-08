@@ -1,7 +1,7 @@
 // Sidebar.js
 import React, { useContext } from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
-import './CSS/Sidebar.css';
+import './Sidebar.css';
 import { FaHome, FaBell, FaUser, FaQuestionCircle, FaSignInAlt, FaSignOutAlt } from 'react-icons/fa';
 import { AuthContext } from '../context/AuthContext';
 

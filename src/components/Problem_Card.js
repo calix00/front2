@@ -13,7 +13,7 @@ const ProblemCard = forwardRef(({ problemNumber }, ref) => {
     arrows: false,
     speed: 500,
     slidesToShow: 6,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     responsive: [
       {
         breakpoint: 1024,

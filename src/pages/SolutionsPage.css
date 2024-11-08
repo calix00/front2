@@ -1,6 +1,6 @@
-/* QuestionsPage.css */
 
-.problems-container {
+
+.solutions-container {
   display: flex;
 }
 
@@ -10,12 +10,13 @@
 
 .content-area {
   background-color: #F3F6FE;
+  min-height: 91vh;
   padding-top: 2px;
   display: flex;
   flex-direction: column;
 }
 
-.problem-card-container {
+.solution-card-container {
   background-color: #F3F6FE;
   border-radius: 3px;
   padding: 1px;
@@ -27,12 +28,12 @@
   white-space: nowrap;
 }
 
-.problem-main-box {
-  flex: 1;
+.solution-main-box {
+  height: 80vh; /* 부모 컨테이너의 높이를 채우도록 설정 */
+  flex-direction: column;
   display: flex;
   background-color: white;
   border-radius: 3px;
-  text-align: center;
   padding: 8px;
   margin: 16px 16px;
   position: relative;
@@ -71,15 +72,10 @@
   background-color: #F3F6FE;
 }
 
-
 .custom-solutions-style .problemBox {
-  height: flex;
+  height:flex;
 }
 
 .custom-solutions-style .explanationBox {
-  height: flex;
+  height:800px;
 }
-
-
-
-

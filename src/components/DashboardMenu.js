@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { Typography, Collapse, List, ListItem, ListItemButton, ListItemText, Box } from '@mui/material';
 import { ExpandMore as ExpandMoreIcon } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
-import './CSS/DashboardMenu.css';
+import './DashboardMenu.css';
 
 const DashboardMenu = () => {
   const [expanded, setExpanded] = useState(false);
@@ -43,12 +43,12 @@ const DashboardMenu = () => {
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
-              <ListItemButton component={Link} to="/feedback">
+              <ListItemButton component={Link} to="/analysis">
                 <ListItemText primary="분석 or 피드백 화면" />
               </ListItemButton>
             </ListItem>
             <ListItem disablePadding>
-              <ListItemButton component={Link} to="/records">
+              <ListItemButton component={Link} to="/history">
                 <ListItemText primary="학습 기록" />
               </ListItemButton>
             </ListItem>

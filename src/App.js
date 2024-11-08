@@ -10,11 +10,10 @@ import { AuthProvider } from './context/AuthContext';
 import theme from './theme';
 import QuestionsPage from './pages/QuestionsPage';
 import PrivateRoute from './components/PrivateRoute';
-import AlertsPage from './pages/AlertsPage'
-import AnalysisPage from './pages/AnalysisPage'
-import HistoryPage from './pages/HistoryPage'
-import SolutionsPage from './pages/SolutionsPage'
-
+import AlertsPage from './pages/AlertsPage';
+import AnalysisPage from './pages/AnalysisPage';
+import HistoryPage from './pages/HistoryPage';
+import SolutionsPage from './pages/SolutionsPage';
 
 function App() {
   return (
@@ -26,14 +25,13 @@ function App() {
             <Route path="/" element={<MainPage />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/login" element={<Login />} />
-            
+
             <Route element={<PrivateRoute />}>
               <Route path="/questions" element={<QuestionsPage />} />
               <Route path="/alerts" element={<AlertsPage />} />
               <Route path="/analysis" element={<AnalysisPage />} />
               <Route path="/history" element={<HistoryPage />} />
               <Route path="/solutions" element={<SolutionsPage />} />
-
             </Route>
           </Routes>
         </Router>
